@@ -1,0 +1,29 @@
+{
+  "csv": "IOT-temp.csv",
+  "sha256": "2bf965701db96cd5788403d395a25d2dd7282bea24e317b7f7b157b7a02063d4",
+  "rows_csv": 97606,
+  "rows_postgresql": 97606,
+  "all_rows_equal": true,
+  "single_matching_import": true,
+  "average_view_equal": true,
+  "hour_view_equal": true,
+  "daily_view_equal": true,
+  "days_with_readings": 86,
+  "calendar_days_inclusive": 134,
+  "room_identifiers": [
+    "Room Admin"
+  ],
+  "location_counts": {
+    "Out": 77261,
+    "In": 20345
+  },
+  "unique_reading_ids": 97605,
+  "duplicate_complete_rows": 1,
+  "average": 35.05393111079237,
+  "min": 21.0,
+  "max": 51.0,
+  "start": "2018-07-28 07:06:00",
+  "end": "2018-12-08 09:30:00",
+  "unit": "Não especificada no CSV; não confirmada na documentação primária acessível.",
+  "scope": "Consultas somente leitura; comparação integral independente do processamento do pipeline."
+}
