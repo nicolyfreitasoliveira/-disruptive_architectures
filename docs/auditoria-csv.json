@@ -1,0 +1,56 @@
+{
+  "file": "IOT-temp.csv",
+  "sha256": "2bf965701db96cd5788403d395a25d2dd7282bea24e317b7f7b157b7a02063d4",
+  "rows": 97606,
+  "columns": [
+    "id",
+    "room_id/id",
+    "noted_date",
+    "temp",
+    "out/in"
+  ],
+  "devices": [
+    "Room Admin"
+  ],
+  "locations": [
+    "In",
+    "Out"
+  ],
+  "start": "2018-07-28 07:06:00",
+  "end": "2018-12-08 09:30:00",
+  "minimum": 21.0,
+  "maximum": 51.0,
+  "averages": {
+    "Room Admin": 35.05393111079237
+  },
+  "hour_counts": {
+    "0": 3341,
+    "1": 3133,
+    "2": 3594,
+    "3": 3681,
+    "4": 2690,
+    "5": 4474,
+    "6": 3145,
+    "7": 3290,
+    "8": 2803,
+    "9": 4390,
+    "10": 5127,
+    "11": 3672,
+    "12": 4050,
+    "13": 4617,
+    "14": 7248,
+    "15": 6029,
+    "16": 4742,
+    "17": 3945,
+    "18": 4180,
+    "19": 4999,
+    "20": 4160,
+    "21": 3522,
+    "22": 3807,
+    "23": 2967
+  },
+  "days": 86,
+  "largest_amplitude_day": "2018-10-16",
+  "largest_amplitude": 28.0,
+  "scope": "Auditoria pandas do CSV real; PostgreSQL não validado por este comando."
+}
