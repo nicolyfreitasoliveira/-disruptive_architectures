@@ -80,24 +80,6 @@ Na validação final, **12 testes passaram, sem testes ignorados**, usando um ba
 
 Para encerrar mantendo dados: `docker compose down`. Para erros: `docker compose logs postgres`. Se 5432 estiver ocupada, mude `POSTGRES_PORT`. Alterar senha no `.env` não muda a senha de um volume já inicializado. O banco fica exposto somente em localhost. Credenciais, CSV e ambiente virtual são ignorados no Git.
 
-## Capturas, relatório e vídeo
-
-As capturas abaixo foram obtidas do Streamlit em execução com as consultas PostgreSQL reais em 07/10/2026. Os gráficos foram abertos em tela cheia pela própria interface, sem alteração dos dados.
-
-![Resumo do dashboard](docs/screenshots/dashboard.jpg)
-
-![Média por identificador de sala](docs/screenshots/media-dispositivo.jpg)
-
-![Leituras por hora do dia](docs/screenshots/leituras-hora.jpg)
-
-![Máximas e mínimas por data](docs/screenshots/extremos-dia.jpg)
-
-Entregáveis: [relatório PDF](output/pdf/relatorio-academico.pdf), [versão editável](docs/relatorio.md), [roteiro com falas e sequência de tela](docs/roteiro-video.md), [checklist](docs/requisitos.md) e [validação](docs/validacao.md). Preencha somente os campos acadêmicos da capa. Para regenerar o PDF após editar o Markdown, instale `requirements-report.txt` no ambiente virtual e execute `python scripts/build_report.py`. A geração do relatório é independente das dependências da aplicação.
-
-Grave e publique o vídeo de até quatro minutos no YouTube (público/não listado) ou rede permitida e confira o link sem autenticação. Use o [link direto da branch develop](https://github.com/nicolyfreitasoliveira/-disruptive_architectures/tree/develop) para o código, pois main não recebe alterações nesta entrega.
-
-Insights devem distinguir observações de hipóteses: volume por hora não comprova frequência regular de sensores e extremos globais podem misturar ambientes. Usos possíveis: acompanhamento térmico e investigação de variações. O PDF não exige um modelo de IA.
-
 ## Comandos Git
 
 O trabalho permanece em `develop`. A finalização autoriza commit e push exclusivamente para origin/develop; não há merge ou push para main. Os comandos de inspeção e publicação são:
